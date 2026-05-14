@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.pibu.dev/'
 locale = 'en-us'
 title = 'My New Hugo Project'
-theme = 'ananke'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/gohugo-ananke/ananke/v2'
